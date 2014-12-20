@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D311F57A1A3D89EA000C6DDB /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D311F5781A3D89EA000C6DDB /* FactoryViewController.swift */; };
+		D311F57B1A3D89EA000C6DDB /* FactoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D311F5791A3D89EA000C6DDB /* FactoryViewController.xib */; };
+		D3461D291A45711D00943B7E /* WPOperation.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3461D281A45711D00943B7E /* WPOperation.mm */; };
 		D352AC1A1A340B3200FDF49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352AC191A340B3200FDF49B /* AppDelegate.swift */; };
 		D352AC1F1A340B3200FDF49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D352AC1D1A340B3200FDF49B /* Main.storyboard */; };
 		D352AC211A340B3200FDF49B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D352AC201A340B3200FDF49B /* Images.xcassets */; };
@@ -15,8 +18,7 @@
 		D352AC3C1A340BE300FDF49B /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = D352AC3B1A340BE300FDF49B /* TODO */; };
 		D352AC3E1A340E1500FDF49B /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352AC3D1A340E1500FDF49B /* CatalogViewController.swift */; };
 		D352AC441A343ACF00FDF49B /* CatalogData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D352AC431A343ACF00FDF49B /* CatalogData.plist */; };
-		D352AC611A34711500FDF49B /* ObjcppObj.mm in Sources */ = {isa = PBXBuildFile; fileRef = D352AC5E1A34711500FDF49B /* ObjcppObj.mm */; };
-		D352AC621A34711500FDF49B /* CppObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D352AC5F1A34711500FDF49B /* CppObj.cpp */; };
+		D3B2F6B71A3604F80002B165 /* Operation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3B2F6B51A3604F80002B165 /* Operation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D311F5781A3D89EA000C6DDB /* FactoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
+		D311F5791A3D89EA000C6DDB /* FactoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryViewController.xib; sourceTree = "<group>"; };
+		D3461D271A45711D00943B7E /* WPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPOperation.h; sourceTree = "<group>"; };
+		D3461D281A45711D00943B7E /* WPOperation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WPOperation.mm; sourceTree = "<group>"; };
 		D352AC141A340B3200FDF49B /* DesingPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesingPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D352AC181A340B3200FDF49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D352AC191A340B3200FDF49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +46,11 @@
 		D352AC2E1A340B3200FDF49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D352AC2F1A340B3200FDF49B /* DesingPatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesingPatternsTests.swift; sourceTree = "<group>"; };
 		D352AC3B1A340BE300FDF49B /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
-		D352AC3D1A340E1500FDF49B /* CatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatalogViewController.swift; path = DesingPatterns/CatalogViewController.swift; sourceTree = "<group>"; };
+		D352AC3D1A340E1500FDF49B /* CatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		D352AC431A343ACF00FDF49B /* CatalogData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CatalogData.plist; sourceTree = "<group>"; };
-		D352AC471A346A8700FDF49B /* DesingPatterns-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DesingPatterns-Bridging-Header.h"; path = "CPP/DesingPatterns-Bridging-Header.h"; sourceTree = "<group>"; };
-		D352AC5D1A34711500FDF49B /* ObjcppObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcppObj.h; sourceTree = "<group>"; };
-		D352AC5E1A34711500FDF49B /* ObjcppObj.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjcppObj.mm; sourceTree = "<group>"; };
-		D352AC5F1A34711500FDF49B /* CppObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppObj.cpp; sourceTree = "<group>"; };
-		D352AC601A34711500FDF49B /* CppObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppObj.h; sourceTree = "<group>"; };
+		D352AC471A346A8700FDF49B /* DesingPatterns-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesingPatterns-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3B2F6B51A3604F80002B165 /* Operation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Operation.cpp; sourceTree = "<group>"; };
+		D3B2F6B61A3604F80002B165 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +71,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D311F5771A3D8463000C6DDB /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				D311F5781A3D89EA000C6DDB /* FactoryViewController.swift */,
+				D311F5791A3D89EA000C6DDB /* FactoryViewController.xib */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
 		D352AC0B1A340B3200FDF49B = {
 			isa = PBXGroup;
 			children = (
-				D352AC421A343AC600FDF49B /* GUI */,
+				D352AC431A343ACF00FDF49B /* CatalogData.plist */,
+				D311F5771A3D8463000C6DDB /* GUI */,
 				D352AC3F1A34362100FDF49B /* CPP */,
 				D352AC161A340B3200FDF49B /* DesingPatterns */,
 				D352AC2C1A340B3200FDF49B /* DesingPatternsTests */,
@@ -90,6 +104,7 @@
 		D352AC161A340B3200FDF49B /* DesingPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D352AC3D1A340E1500FDF49B /* CatalogViewController.swift */,
 				D352AC191A340B3200FDF49B /* AppDelegate.swift */,
 				D352AC1D1A340B3200FDF49B /* Main.storyboard */,
 				D352AC201A340B3200FDF49B /* Images.xcassets */,
@@ -128,22 +143,30 @@
 		D352AC3F1A34362100FDF49B /* CPP */ = {
 			isa = PBXGroup;
 			children = (
-				D352AC5D1A34711500FDF49B /* ObjcppObj.h */,
-				D352AC5E1A34711500FDF49B /* ObjcppObj.mm */,
-				D352AC5F1A34711500FDF49B /* CppObj.cpp */,
-				D352AC601A34711500FDF49B /* CppObj.h */,
+				D352AC471A346A8700FDF49B /* DesingPatterns-Bridging-Header.h */,
+				D3B2F6B81A3608500002B165 /* Objc_Wrapper */,
+				D3B2F6B41A3604B10002B165 /* calculator */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
 		};
-		D352AC421A343AC600FDF49B /* GUI */ = {
+		D3B2F6B41A3604B10002B165 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
-				D352AC471A346A8700FDF49B /* DesingPatterns-Bridging-Header.h */,
-				D352AC3D1A340E1500FDF49B /* CatalogViewController.swift */,
-				D352AC431A343ACF00FDF49B /* CatalogData.plist */,
+				D3B2F6B61A3604F80002B165 /* Operation.h */,
+				D3B2F6B51A3604F80002B165 /* Operation.cpp */,
 			);
-			name = GUI;
+			name = calculator;
+			sourceTree = "<group>";
+		};
+		D3B2F6B81A3608500002B165 /* Objc_Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				D3461D271A45711D00943B7E /* WPOperation.h */,
+				D3461D281A45711D00943B7E /* WPOperation.mm */,
+			);
+			name = Objc_Wrapper;
+			path = objcpp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +254,7 @@
 				D352AC3C1A340BE300FDF49B /* TODO in Resources */,
 				D352AC211A340B3200FDF49B /* Images.xcassets in Resources */,
 				D352AC441A343ACF00FDF49B /* CatalogData.plist in Resources */,
+				D311F57B1A3D89EA000C6DDB /* FactoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D352AC3E1A340E1500FDF49B /* CatalogViewController.swift in Sources */,
-				D352AC621A34711500FDF49B /* CppObj.cpp in Sources */,
 				D352AC1A1A340B3200FDF49B /* AppDelegate.swift in Sources */,
-				D352AC611A34711500FDF49B /* ObjcppObj.mm in Sources */,
+				D3B2F6B71A3604F80002B165 /* Operation.cpp in Sources */,
+				D3461D291A45711D00943B7E /* WPOperation.mm in Sources */,
+				D311F57A1A3D89EA000C6DDB /* FactoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +473,7 @@
 				D352AC351A340B3200FDF49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D352AC361A340B3200FDF49B /* Build configuration list for PBXNativeTarget "DesingPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +482,7 @@
 				D352AC381A340B3200FDF49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

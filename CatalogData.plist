@@ -6,13 +6,13 @@
 		<key>title</key>
 		<string>简单工厂模式</string>
 		<key>class</key>
-		<string></string>
+		<string>FactoryViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>策略模式</string>
 		<key>class</key>
-		<string></string>
+		<string>WBViewController</string>
 	</dict>
 </array>
 </plist>
