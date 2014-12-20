@@ -43,10 +43,12 @@ class CatalogViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
-        let className: String = (self.items[indexPath.row] as NSDictionary)["class"] as String
+        let classInfo : NSDictionary = (self.items[indexPath.row] as NSDictionary);
+        let className: String = classInfo["class"] as String
         
         if let theClass = NSClassFromString(className) as? UIViewController.Type {
             let controller = theClass(nibName: nil, bundle: nil)
+            controller.title = classInfo["title"] as? String
             self.navigationController?.pushViewController(controller, animated: true)
         }
         

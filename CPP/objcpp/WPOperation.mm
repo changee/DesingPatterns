@@ -34,6 +34,19 @@
 
     WPOperation *operationObj = [[WPOperation alloc] init];
     operationObj->opr = OperationFactory::creatOperation(operate);
+    
+    // MARK: A001
+    // 这里如果改成策略模式：
+    // 1. 去除Factory类, 把switch哪个策略类的逻辑移到这里.
+    // 2. 把数据移到这个Context类里，策略类只维护算法部分.
+    // 3. 结合OC的动态绑定特性或者JAVA的反射特性，可以根据参数op，生成对于的类。
+    
+    /* 示例，动态绑定示例
+     Class ConcreteStrategy = NSClassFromString(@"ConcreteStrategy + 参数OP");
+     WPOperation *concreteStrategy = [[ConcreteStrategy alloc] init];
+     operationObj.opr = concreteStrategy;
+     */
+    
     return operationObj;
 }
 

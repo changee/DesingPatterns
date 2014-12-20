@@ -4,15 +4,19 @@
 <array>
 	<dict>
 		<key>title</key>
-		<string>简单工厂模式</string>
+		<string>简单工厂模式、策略模式</string>
 		<key>class</key>
 		<string>FactoryViewController</string>
+		<key>type</key>
+		<string>vc</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>策略模式</string>
+		<string>单一职责原则</string>
 		<key>class</key>
-		<string>WBViewController</string>
+		<string>SRP</string>
+		<key>type</key>
+		<string>desc</string>
 	</dict>
 </array>
 </plist>
