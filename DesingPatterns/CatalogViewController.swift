@@ -36,8 +36,8 @@ class CatalogViewController: UIViewController, UITableViewDelegate, UITableViewD
         let cellIdentifier : String = "cell"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
         let data = self.items[indexPath.row] as NSDictionary
-        cell.textLabel.text = data["title"] as? String
-        
+//        cell.textLabel.text = data["title"] as? String
+        cell.textLabel?.text = data["title"] as? String
         return cell
     }
     

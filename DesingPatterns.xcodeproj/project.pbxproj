@@ -10,6 +10,7 @@
 		D311F57A1A3D89EA000C6DDB /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D311F5781A3D89EA000C6DDB /* FactoryViewController.swift */; };
 		D311F57B1A3D89EA000C6DDB /* FactoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D311F5791A3D89EA000C6DDB /* FactoryViewController.xib */; };
 		D3461D291A45711D00943B7E /* WPOperation.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3461D281A45711D00943B7E /* WPOperation.mm */; };
+		D34F02291A472A1D000BA90F /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = D34F02281A472A1D000BA90F /* File.strings */; };
 		D352AC1A1A340B3200FDF49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352AC191A340B3200FDF49B /* AppDelegate.swift */; };
 		D352AC1F1A340B3200FDF49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D352AC1D1A340B3200FDF49B /* Main.storyboard */; };
 		D352AC211A340B3200FDF49B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D352AC201A340B3200FDF49B /* Images.xcassets */; };
@@ -36,6 +37,7 @@
 		D311F5791A3D89EA000C6DDB /* FactoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryViewController.xib; sourceTree = "<group>"; };
 		D3461D271A45711D00943B7E /* WPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPOperation.h; sourceTree = "<group>"; };
 		D3461D281A45711D00943B7E /* WPOperation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WPOperation.mm; sourceTree = "<group>"; };
+		D34F02281A472A1D000BA90F /* File.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = File.strings; sourceTree = "<group>"; };
 		D352AC141A340B3200FDF49B /* DesingPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesingPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D352AC181A340B3200FDF49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D352AC191A340B3200FDF49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +82,18 @@
 			path = GUI;
 			sourceTree = "<group>";
 		};
+		D34F022A1A472A2C000BA90F /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				D34F02281A472A1D000BA90F /* File.strings */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		D352AC0B1A340B3200FDF49B = {
 			isa = PBXGroup;
 			children = (
+				D34F022A1A472A2C000BA90F /* Text */,
 				D352AC431A343ACF00FDF49B /* CatalogData.plist */,
 				D311F5771A3D8463000C6DDB /* GUI */,
 				D352AC3F1A34362100FDF49B /* CPP */,
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D352AC1F1A340B3200FDF49B /* Main.storyboard in Resources */,
+				D34F02291A472A1D000BA90F /* File.strings in Resources */,
 				D352AC241A340B3200FDF49B /* LaunchScreen.xib in Resources */,
 				D352AC3C1A340BE300FDF49B /* TODO in Resources */,
 				D352AC211A340B3200FDF49B /* Images.xcassets in Resources */,

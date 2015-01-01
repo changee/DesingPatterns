@@ -12,11 +12,19 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>单一职责原则</string>
+		<string>装饰模式</string>
 		<key>class</key>
-		<string>SRP</string>
+		<string></string>
 		<key>type</key>
 		<string>desc</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>函数式编程</string>
+		<key>class</key>
+		<string>F</string>
+		<key>type</key>
+		<string>todo</string>
 	</dict>
 </array>
 </plist>
